@@ -1,0 +1,28 @@
+.cardd{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    border: 3px solid black;
+    border-radius: 25px;
+    width: 300px;
+    text-align: center;    
+    margin-left: 50px;
+    margin-top: 200px;
+}
+.card img {
+    width: 100px;
+}
+.form{
+    text-align: center;
+    margin-top: 50px;
+
+}
+.form input{
+    width: 200px;
+    height: 30px;
+}
+.form button{
+    width: 100px;
+    height: 30px;
+}
