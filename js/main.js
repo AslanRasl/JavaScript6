@@ -9,8 +9,8 @@ var elTime4 = document.querySelector('.card__time4')
 elForm.addEventListener('submit' , function (km) {
     km.preventDefault()
 
-    elTime1.textContent = km.target.km.value / 5 
-    elTime2.textContent = km.target.km.value / 20
-    elTime3.textContent = km.target.km.value / 100
-    elTime4.textContent = km.target.km.value / 800
+    elTime1.textContent = km.target.km.value / 5 + ' hour'
+    elTime2.textContent = km.target.km.value / 20 + ' hour'
+    elTime3.textContent = km.target.km.value / 100 + ' hour'
+    elTime4.textContent = km.target.km.value / 800 + ' hour'
 })
